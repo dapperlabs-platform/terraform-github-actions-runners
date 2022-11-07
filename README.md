@@ -1,5 +1,5 @@
 # Github Actions Self-hosted Runners Module
-This module simplifies the creation of creating managed instance VMs based on the runner image dedicated to a team/project
+This module simplifies the creation of managed instance VMs based on the runner image dedicated to a team/project
 
 
 Example
