@@ -5,7 +5,7 @@ This module simplifies the creation of managed instance VMs based on the runner 
 Example
 ```hcl
 module "github-actions-runners" {
-  source          = "git@github.com:dapperlabs-platform/terraform-github-actions-runners.git"
+  source          = "git@github.com:dapperlabs-platform/terraform-github-actions-runners.git?ref=<latest-tag>"
 
   image           = "github-actions-runner-xyz"
   network         = "dedicated-github-actions-network"
