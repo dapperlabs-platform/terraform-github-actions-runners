@@ -11,7 +11,7 @@ module "github-actions-runners" {
   network         = "dedicated-github-actions-network"
   region          = "network-region"
   runner_count    = 10
-  service_account = "serviceAccount:project-servivce-account@ci.iam.gserviceaccount.com"
+  service_account = "serviceAccount:project-service-account@<gcp-project>.iam.gserviceaccount.com"
   labels = [
     "project-name"
   ]
