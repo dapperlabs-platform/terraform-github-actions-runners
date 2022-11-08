@@ -112,7 +112,7 @@ resource "google_compute_region_autoscaler" "default" {
         min_required_replicas = var.autoscale_max_replicas
         duration_sec          = this.value.duration_hours * 60 * 60
         schedule              = this.value.cron_trigger
-        time_zone             = this.value.time_zone
+        time_zone             = var.time_zone
       }
     }
 
